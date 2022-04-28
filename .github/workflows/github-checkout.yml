@@ -21,4 +21,4 @@ jobs:
       - name: Run ls -al
         run: ls -al
       - name : Run cp files
-        run: cp * /var/www/html
+        run: cp -r /actions-runner/_work/action-tutorials/action-tutorials /var/www/html
