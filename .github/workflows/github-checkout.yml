@@ -20,3 +20,5 @@ jobs:
         run: pwd
       - name: Run ls -al
         run: ls -al
+      - name : Run cp files
+        run: cp * /var/www/html
