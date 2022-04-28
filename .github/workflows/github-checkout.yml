@@ -21,4 +21,4 @@ jobs:
       - name: Run ls -al
         run: ls -al
       - name : Run cp files
-        run: sudo cp -r ~/actions-runner/_work/action-tutorials/action-tutorials/ /var/www/html
+        run: sudo cp -RT ~/actions-runner/_work/action-tutorials/action-tutorials/ /var/www/html
